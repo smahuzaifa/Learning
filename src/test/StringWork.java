@@ -2,9 +2,9 @@ package test;
 
 public class StringWork {
     public static void main(String[] args) {
-        String s1 = "ABC";
+        String s1 = "ABC"; //This is string literal
         String s2 = "LSQ";
-        String s3 = new String("Welcome");
+        String s3 = new String("Welcome"); //This is string object
         String s4 = new String("Welcome Back Again");
         String[] s5= s4.split(" ");
         //This will split the array at mentioned character
@@ -22,7 +22,5 @@ public class StringWork {
             System.out.println(s4.charAt(i));
             //This will print the array in reverse
         }
-
-
     }
 }

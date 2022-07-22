@@ -20,7 +20,15 @@ public class StringWork {
         for(int i= s4.length()-1;i>=0;i--)
         {
             System.out.println(s4.charAt(i));
-            //This will print the array in reverse
+            //This will print the string array in reverse
+        }
+        System.out.println();
+        int[] a = {1,2,3,4,5,6};
+        for(int i=a.length-1;i>=0;i--) //Length-1 is used here because array index before its actual size must be
+            // used as we start from 0
+        {
+            System.out.println(a[i]);
+            //This will print the integer array in reverse
         }
     }
 }

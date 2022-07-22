@@ -9,6 +9,6 @@ public class MyEnchancedForLoop {
             if( b % 2 == 0)
             System.out.println(b);
         }
-        System.out.println("hello");
+        //System.out.println("hello");
     }
 }
